@@ -4,16 +4,26 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "prepare": "husky install",
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "eslint --max-warnings=0",
+    "lint:fix": "npm run lint -- --fix",
+    "precommit": "npm run lint"
   },
   "dependencies": {
-    "preact": "^10.16.0"
+    "preact": "10.18.1"
   },
   "devDependencies": {
-    "@preact/preset-vite": "^2.5.0",
-    "typescript": "^5.0.2",
-    "vite": "^4.4.5"
+    "@preact/preset-vite": "2.5.0",
+    "@typescript-eslint/eslint-plugin": "6.7.4",
+    "@typescript-eslint/parser": "6.7.4",
+    "eslint": "8.51.0",
+    "eslint-plugin-prettier": "5.0.0",
+    "husky": "8.0.3",
+    "prettier": "3.0.3",
+    "typescript": "5.2.2",
+    "vite": "4.4.11"
   }
 }
