@@ -7,6 +7,9 @@ const LandingView: React.FunctionComponent = () => {
             <div className={"topContainer"}><TopBar/></div>
             <div className={"sloganBox"}></div>
             <div className={"actionBox"}></div>
+            <div className={'footer'}>
+                <span className={'potworzycaText'}>potworzyca jest super</span>
+            </div>
         </div>
     </>
 }

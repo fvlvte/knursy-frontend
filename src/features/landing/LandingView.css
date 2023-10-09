@@ -25,5 +25,15 @@
 }
 
 .footer {
+    width: 100%;
+    height: calc(2137px*0.02137);
+    border: #747bff 3px solid;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+}
 
+.potworzycaText {
+    font-weight: bolder;
+    color: deeppink;
 }
