@@ -1,0 +1,29 @@
+.rootContainer {
+    width: 100%;
+    height: 100%;
+}
+
+.topContainer {
+    width: 100%;
+    height: 64px;
+}
+
+.sloganBox {
+    width: 61.77%;
+    height: calc(100% - 64px - 2137px * 0.02137);
+    border: crimson 3px solid;
+    box-sizing: border-box;
+    float: left;
+}
+
+.actionBox {
+    width: 38.22%;
+    height: calc(100% - 64px - 2137px * 0.02137);
+    border: #535bf2 3px solid;
+    box-sizing: border-box;
+    float: left;
+}
+
+.footer {
+
+}

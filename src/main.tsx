@@ -1,4 +1,5 @@
 import { render } from 'preact'
 import './index.css'
+import LandingView from "./features/landing/LandingView.tsx";
 
-render(<></>, document.getElementById('app')!)
+render(<LandingView/>, document.getElementById('app')!)
